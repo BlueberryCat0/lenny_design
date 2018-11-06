@@ -47,6 +47,15 @@ body {
 
 .inner-container {
   padding: 150px;
+  position: relative;
+}
+
+.inner-container .plus {
+  position: absolute;
+  top: 150px;
+  left: 75px;
+  transform: translateX(-50%);
+  cursor: pointer;
 }
 
 .grid {
